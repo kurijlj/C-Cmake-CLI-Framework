@@ -10,7 +10,7 @@ message(STATUS "Going through ./src")
 # -----------------------------------------------------------------------------
 #
 # Description: A dummy target that does nothing. This is useful for testing
-#              the build system. And also for buidling the tests.
+#              the build tool. And also for buidling the tests.
 #
 # -----------------------------------------------------------------------------
 

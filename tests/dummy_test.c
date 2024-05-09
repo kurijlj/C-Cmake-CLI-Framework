@@ -12,11 +12,10 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
  * Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License along
  * with Focus Precision Analyze. If not, see <https://www.gnu.org/licenses/>.
  * ========================================================================== */
-
 
 /* ==========================================================================
  *
@@ -25,7 +24,6 @@
  * * <testfilename>.c: created.
  *
  * ========================================================================== */
-
 
 /* ==========================================================================
  *
@@ -36,7 +34,6 @@
  *   <https://nemequ.github.io/munit/#documentation>
  *
  * ========================================================================== */
-
 
 /* ==========================================================================
  * Headers include section
@@ -52,7 +49,7 @@
 #include <munit.h>
 
 void main(void) {
-    int a = 10;
-    int b = 10;
-    munit_assert_int(a, ==, b);
+  int a = 10;
+  int b = 10;
+  munit_assert_int(a, ==, b);
 }

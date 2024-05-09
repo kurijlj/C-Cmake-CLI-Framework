@@ -58,7 +58,7 @@ business logic and CMake build instructions required for your app.
 - **app:** The main application target. This is the target that is built
   from the framework source code.
 - **dummy:** A dummy target that does nothing. This is useful for testing
-  the build system. And also for buidling the tests.
+  the build tool. And also for buidling the tests.
 - **dummy_test:** A dummy test target that uses the `munit' framework to test
   the basic functionality of the framework.
 - **all**: Build all abovementioned targets.
